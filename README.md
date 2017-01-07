@@ -12,3 +12,7 @@ But as we observed with the increasing density which reduces cold start, the acc
 
 #Conclusion
 In this work, we summarize our experiences and lessons learned from experiment with state-of-the-art collaborative filtering approach, Matrix Factorization, and implicit feedback dataset(DBLP co-author dataset). Overall, our study shows that knowledge about the characteristics of the domain and of specific data (density of dataset) can be used to guide an analyst towards the most appropriate algorithm to use, thus saving valuable time. The analysis of our results shows that for sparse data datasets (which are quite common in large-scale recommender systems), knowledge about the data domain (specifically, knowledge about the density of dataset)can be used to select the more suitable CF approach.
+
+
+#Dataset used for analysis:
+http://konect.uni-koblenz.de/networks/dblp_coauthor
